@@ -12,8 +12,5 @@ function linerintep(grid,vals)
     
 end
 
-grid = [1.0 , 2.0]
-vals = [2.0 , 0.0]
-f = linerintep(grid,vals)
 
 end
