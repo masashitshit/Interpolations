@@ -1,15 +1,19 @@
 module Interpolations
 
-function my_lin_interp2(a,b,c,d)
+function linerintep(grid,vals)
     
-   function fuck(x)
+    function funfunc(x)
+        
+        return (vals[2]-vals[1])/(grid[2]-grid[1])*(x-grid[1])+vals[1]
+        
+    end
     
-      return ((d-c)/(b-a))*(x-a)+b
-
-   end
-
-   return fuck
-  
+    return funfunc
+    
 end
+
+grid = [1.0 , 2.0]
+vals = [2.0 , 0.0]
+f = linerintep(grid,vals)
 
 end
