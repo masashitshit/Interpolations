@@ -1,10 +1,10 @@
-using MyInterpolations
+using Interpolations
 
 using Base.Test
 
 
 
-const _lin_interp = my_lin_interp
+const _lin_interp = linerintep(grid,vals)
 
 
 
@@ -16,7 +16,7 @@ const _lin_interp = my_lin_interp
 
         vals = [2, 0]
 
-        itp = _lin_interp(grid, vals)
+        itp = linerintep(grid, vals)
 
 
 
