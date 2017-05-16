@@ -4,7 +4,7 @@ using Base.Test
 
 
 
-const _lin_interp = linerintep(grid,vals)
+const _lin_interp = linerinterp(grid,vals)
 
 
 
@@ -16,7 +16,7 @@ const _lin_interp = linerintep(grid,vals)
 
         vals = [2, 0]
 
-        itp = linerintep(grid, vals)
+        itp = linerinterp(grid, vals)
 
 
 
