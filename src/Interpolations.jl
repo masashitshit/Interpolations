@@ -1,3 +1,4 @@
+
 module Interpolations
 
 function linerintep(grid,vals)
@@ -12,5 +13,6 @@ function linerintep(grid,vals)
     
 end
 
+export linerintep
 
 end
