@@ -1,13 +1,13 @@
-using MyInterpolations
+using Interpolations
 using Base.Test
 
-const _lin_interp = my_lin_interp
+const _lin_interp = linerintep(grid,vals)
 
 @testset "Testing linear interporation" begin
     @testset "case with two grid points" begin
         grid = [1, 2]
         vals = [2, 0]
-        itp = _lin_interp(grid, vals)
+        itp = linerintep(grid, vals)
 
         @testset "scalar input" begin
             x, y = 1.25, 1.5
