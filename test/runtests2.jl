@@ -16,7 +16,7 @@ const _lin_interp = linerinterp(grid,vals)
 
         vals = [2, 0]
 
-        itp = linerinterp(grid, vals)
+        itp = _lin_interp(grid, vals)
 
 
 
