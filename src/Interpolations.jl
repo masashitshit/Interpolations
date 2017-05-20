@@ -15,13 +15,13 @@ function linerinterp(grid,vals)
         
         end
     
-        if x > grid[end]
+          if  grid[end] <=x
         
             return 0
         
         end
     
-        if grid[1] <= x <= grid[end]
+        if grid[1] <= x < grid[end]
             
             i = searchsortedlast(grid,x)
 
