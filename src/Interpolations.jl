@@ -19,7 +19,7 @@ function linerinterp(grid,vals)
         
         end
     
-        if grid[1] <= x <= grid[end]
+        if grid[1] <= x < grid[end]
             
             i = searchsortedlast(grid,x)
 
@@ -28,6 +28,12 @@ function linerinterp(grid,vals)
             return y
             
         end
+          
+          if x = grid[end]
+               
+               return vals[end]
+               
+          end
         
     end
     
