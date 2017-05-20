@@ -1,6 +1,8 @@
 
 module Interpolations
 
+export linerinterp
+
 function linerinterp(grid,vals)
      
     function funfun(x)
@@ -33,6 +35,5 @@ function linerinterp(grid,vals)
         
 end
 
-export linerinterp
 
 end
