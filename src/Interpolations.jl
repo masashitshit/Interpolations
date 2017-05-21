@@ -15,7 +15,7 @@ function linerinterp(grid,vals)
         
         end
     
-        if grid[end] <= x
+          if  grid[end] <=x
         
             return 0
         
