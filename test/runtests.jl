@@ -4,7 +4,7 @@ using Base.Test
 
 
 
-const _lin_interp = linerinterp(grid,vals)
+const _lin_interp = linerinterp
 
 
 
