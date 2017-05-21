@@ -9,19 +9,19 @@ function linerinterp(grid,vals)
      
     function funfun(x)
 
-        if x <= grid[1]
+        if x < grid[1]
         
             return 0
         
         end
     
-          if  grid[end] <=x
+          if  grid[end] <x
         
             return 0
         
         end
     
-        if grid[1] < x < grid[end]
+        if grid[1] <= x <= grid[end]
             
             i = searchsortedlast(grid,x)
 
